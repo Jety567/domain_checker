@@ -1,0 +1,21 @@
+{
+  "name": "domain_checker_cli",
+  "version": "1.0.0",
+  "description": "A tool to check Domains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/Jety567/domain_checker",
+  "bin": "./index.js",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "Patrick Weber",
+  "license": "ISC",
+  "dependencies": {
+    "ping": "^0.4.2",
+    "tld-list": "^1.0.1"
+  }
+}
