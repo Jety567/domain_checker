@@ -1,12 +1,15 @@
 #! /usr/bin/env node
 
+var THREE = 3;
+
+
 var ping = require('ping');
 var tlds = require('tld-list');
 
 console.log("Welcome to Domain Checker");
 
 
-if(process.argv.length < 3) 
+if(process.argv.length < THREE) 
    return console.log("No Arguemnt");
 
 
